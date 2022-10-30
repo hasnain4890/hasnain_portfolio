@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    /* width: 200px; */
+    height: 100vw;
+    /* background: red; */
+    font-family: 'Fira Sans', sans-serif;
+     
+    background: rgb(166, 163, 163);
+    transition: transform 0.5s ease-in;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0px;
+    font-size: 30px;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav ul li a:hover {
+
+    color: rgb(178, 41, 41);
+}
+.main{
+    width: 85vw ;
+    /* background: yellow; */
+}
+.infocontainer{
+    /* background: blue; */
+    width: 70vw;
+    height: 70vh;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.name:hover {
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    color:orange
+
+}
+.about{
+    font-size: 30px;
+
+}
+.moreabout{
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons button{
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    padding: 12px;
+    margin: 15px;
+    background-color: orange;
+    font-size: 22px;
+    transition: 0.4s ease;
+    border-radius: 30px;
+
+}
+.h-buttons button {
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.h-buttons button:hover {
+    padding: 12px;
+    margin: 15px;
+    background-color: orange;
+    font-size: 22px;
+    transition: 0.4s ease;
+    border-radius: 30px;
+
+}
+
+.devpic img{
+    width: 400px;
+    height: 70vh;
+    /* margin-top: 100px; */
+    border-radius: 20px;
+    
+}
+
+
+
+.blogcontainer{
+    margin: 40px;
+    
+}
+.blogcontainer h1{
+    display: flex;
+    
+}
+
+.blogitem{
+float: left;
+padding: 20px;
+margin: 20px;
+margin-right: 400px;
+}
+
+.blogitem h2{
+font-family: 'Fira Sans', sans-serif;
+}
+
+.blogitem p{
+font-family: 'Fira Sans', sans-serif;
+padding: 10px;
+}
+.buttonss {
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttonss:hover{
+    padding: 12px;
+        margin: 15px;
+        background-color: orange;
+        font-size: 22px;
+        transition: 0.4s ease;
+        border-radius: 30px;
+    
+}
+.intro-devinfo{
+    margin-top: 20px;
+}
+.intro-devinfo h1{
+    margin-left: 80px;
+}
+.intro-devinfo p{
+margin-left: 10px;
+margin: 30px;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.skillscontainer{
+    padding: 2opx;
+    margin: 20px;
+}
+.skillitem{
+    margin: 10px;
+}
+.skill{
+    width: 270px;
+    height: 10px;
+    background-color: brown;
+    border: 4px solid black;
+
+}
+.hundred{
+    width: 270px;
+    background-color: aqua;
+}
+.fifty{
+    width: 150px;
+    background-color: blue;
+}
+.t5{
+    width: 100px;
+    background-color: chartreuse;
+}
+.hamburger{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+margin-left: 150px;
+}
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+@media (max-width:1070px){
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+}

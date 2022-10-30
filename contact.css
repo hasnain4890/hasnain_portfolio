@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 200px;
+    height: 100vw;
+    /* background: red; */
+    font-family: 'Fira Sans', sans-serif;
+     
+    background: rgb(166, 163, 163);
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0px;
+    font-size: 30px;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav ul li a:hover {
+    
+    color: rgb(178, 41, 41);
+}
+.main{
+    width: 85vw ;
+    /* background: yellow; */
+}
+.infocontainer{
+    /* background: blue; */
+    width: 70vw;
+    height: 70vh;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.name:hover {
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    color:orange
+
+}
+.about{
+    font-size: 30px;
+
+}
+.moreabout{
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons button{
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    padding: 12px;
+    margin: 15px;
+    background-color: orange;
+    font-size: 22px;
+    transition: 0.4s ease;
+    border-radius: 30px;
+
+}
+
+.devpic img{
+    width: 400px;
+    height: 70vh;
+    /* margin-top: 100px; */
+    border-radius: 20px;
+    
+}
+
+
+
+.contactform h1{
+ text-align: center;
+ margin-top: 60px;
+ font-weight: bolder;
+ text-transform: uppercase;
+
+}
+
+form{
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 20px;
+}
+.form-control{
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid black;
+    font-size: 20px;
+
+}
+#emailHelp{
+    font-size: 20px;
+}
+#exampleCheck1{
+    margin-top: 19px;
+
+}
+.form-check-label{
+    margin-top: 19px;
+    font-size: 20px;
+}
+.buttons{
+    padding: 10px;
+        margin: 15px;
+        border: 3px solid black;
+        border-radius: 10px;
+        font-size: 18px;
+        background-color: aquamarine;
+        font-weight: bold;
+        cursor: pointer;
+}
+.E-P{
+    font-weight: bold;
+}
